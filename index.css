@@ -16,7 +16,7 @@ body {
 }
 
 .contenedor {
-	width: 500px;
+	min-width: 500px;
 	height:500px;
 	border: 2px solid red;
 	margin: 20px auto;
@@ -60,4 +60,9 @@ box-shadow: 0px 0px 105px 45px rgba(45,255,196,0.9);
 	font-size: 40px;
 	margin-top: 20px;
 	color: white;
+}
+
+.contenedor-botones {
+	display: flex;
+	justify-content: center;
 }
